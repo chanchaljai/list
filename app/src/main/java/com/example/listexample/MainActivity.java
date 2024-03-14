@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
               
-               if(position == 0){
+               if(i == 0){
                    Toast.makeText(MainActivity.this, "Clicked First Item", Toast.LENGTH_SHORT).show();
                }
            }
